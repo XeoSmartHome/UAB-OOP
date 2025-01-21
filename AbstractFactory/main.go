@@ -32,6 +32,6 @@ func main() {
 	_, err = getRobotFactory("cooking")
 	if err != nil {
 		// Afișează eroarea dacă fabrica nu este găsită
-		log.Println(err)
+		fmt.Println(err)
 	}
 }
